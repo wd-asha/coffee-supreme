@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/wholesale.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <label for="search"></label>
+    <input type="search" placeholder="Start typing here..." id="search">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="news.html">Journal</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="keepcup.html"><span>KeepCups</span></a>
+                <a href="tableware.html"><span>Tableware</span></a>
+                <a href="stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="single/seven.html">No.7&nbsp;Blend</a>
+                <a href="single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="single/raung.html">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Wholesale</span>
+        </h6>
+    </div>
+
+    <div class="wholesale">
+        <div class="wholesale-img">
+            <img src="images/wholesale.jpg" alt="">
+        </div>
+        <div class="wholesale-text">
+            <h4>Wholesale Enquires</h4>
+            <p>If you're looking to partner with a roaster you can work well with to build your coffee business, you found us. We've been eating coffee for breakfast since the 90s, and we've learned a bunch of things since then that could be really helpful</p>
+            <p>We like to think of ourselves as the coffee department of successful cafes</p>
+            <p>Collaborating with good, like-minded folks is something we love here at Supreme - whether it's with people who grow coffee, people who make it, or people who simply love to drink it. We reckon that keeping good company is one of the key things to building a decent business</p>
+            <p>Maybe you're not looking to open a fullblown cafe, but instead you're simply hunting for great coffee at the office. Well that's easy too - we can tailor something just for you</p>
+        </div>
+        <div class="wholesale-form">
+            <h2>Wholesale Enquiry</h2>
+            <form method="post" action="">
+                <div class="form-control">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="form-control">
+                    <label for="cafeName"></label>
+                    <input type="text" placeholder="Cafe Name" id="cafeName">
+                </div>
+                <div class="form-control">
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail" id="email">
+                </div>
+                <div class="form-control">
+                    <label for="phone"></label>
+                    <input type="text" placeholder="Phone" id="phone">
+                </div>
+                <div class="btn-box">
+                    <a href="#" class="product_btn">Submit
+                        <div class="product_btn_back"></div>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+<div class="bg-footer">
+    <footer class="down-footer">
+        <div class="footer-item">
+            <h3>Shop</h3>
+            <a href="coffee.html">Coffee</a>
+            <a href="#">Subscriptions</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="office.html">Coffee For The Office</a>
+            <a href="Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+        </div>
+        <div class="footer-item">
+            <h3>About As</h3>
+            <a href="team-nz.html">Our Team</a>
+            <a href="history.html">Our History</a>
+            <a href="careers.html">Careers</a>
+            <a href="news.html">Journal</a>
+            <a href="delivery.html">Shipping & Delivery</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contacts</h3>
+            <a href="contacts.html">Contact Us</a>
+            <a href="help.html">Help</a>
+            <a href="policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-item">
+            <span>© 2021 COFFEE SUPREME LIMITED</span>
+            <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+            <p>0800 937 627</p>
+            <p>shopnz@coffeesupreme.com</p>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <a href="http://wd-asha.ru">wd-asha.ru</a>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/picks.js"></script>
+<script src="js/single.js"></script>
+</body>
+</html>

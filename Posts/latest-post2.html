@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="../fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <input type="search" placeholder="Start typing here...">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="../cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="../images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="../wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="../login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="../locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="../news.html">News</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="../careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="../coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="../equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="../merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="../pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="../equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="../manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="../machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="../grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="../brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="../filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="../keepcup.html"><span>KeepCups</span></a>
+                <a href="../tableware.html"><span>Tableware</span></a>
+                <a href="../stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="../coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="../single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="../single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="../single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="../single/seven.html">No.7&nbsp;Blend</a>
+                <a href="../single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="../single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="#">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="../single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="../single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="../single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="../single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="../single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="../single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="../single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="../index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <a href="../news.html">Journal</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Post</span>
+
+        </h6>
+    </div>
+
+    <h2>Post</h2>
+
+    <div class="post">
+        <div class="post-title">
+            <h4>Coffee, Chocolate & Hazelnut Cake by Clementine Day</h4>
+            <div class="post-text_header">
+                <div class="post-text_header_left">september 23, 2021</div>
+                <div class="post-text_header_right">recipes</div>
+            </div>
+            <div class="post-img">
+                <img src="../images/Posts/cake.jpg" alt="">
+            </div>
+        </div>
+        <div class="post-text1">
+            <p>Coffee cake is perfect for breakfast, perfect for afternoon tea, perfect in any situation where you need a little pep-up. This one has chocolate and hazelnuts and cardamom and cinnamon and is everything you (I) want a coffee cake to be. This recipe makes enough buttercream for a generous topping if you leave the cake single layered (as pictured) or will also give you enough should you wish to slice your cake in half horizontally and layer it with the buttercream instead. Both are good. You can use plain flour and 1 teaspoon baking soda, along with 1 teaspoon of baking powder if you don’t have self-raising flour. Feel free to use Instant coffee in both the cake and the buttercream, just keep the liquid amounts the same</p>
+            <p>Ingredients:</p>
+            <ul>
+                <li>50g roasted hazelnuts</li>
+                <li>150g unsalted butter, softened</li>
+                <li>200g caster sugar</li>
+                <li>2 eggs</li>
+                <li>1 teaspoon vanilla paste or extract</li>
+                <li>215g self-raising flour</li>
+                <li>1 tablespoon finely ground coffee beans</li>
+                <li>0.5 teaspoon ground cardamom</li>
+                <li>Pinch of salt</li>
+                <li>100g sour cream</li>
+                <li>70ml strong espresso, cooled completely</li>
+                <li>90g dark chocolate, chopped into shavings</li>
+            </ul>
+            <p>Method:</p>
+            <p>Firstly, preheat your oven to 170 C and grease and line a 20cm cake tin</p>
+            <p>Make sure you’ve roasted your hazelnuts. Simply weigh out 50g hazelnuts and place whole on a baking sheet and roast in the oven for 10-15 minutes until darkened and smelling nice and nutty</p>
+            <p>In a food processor, blitz your hazelnuts until they form a fine mealy crumb</p>
+            <p>Add your flour, cinnamon, cardamom, finely ground coffee, pinch of salt and ground roasted hazelnuts to a medium sized bowl and combine</p>
+            <p>In a stand mixer fitted with a paddle attachment, or using electric beaters, cream butter and sugar together for 5-7 minutes, scraping down the sides a couple of times, until really pale and fluffy</p>
+        </div>
+        <div class="post-text2">
+            <p>Add in vanilla, followed by one of your eggs and beat really well. Then add your second egg, and beat again until well combined</p>
+            <p>Remove the bowl from your stand mixer and add in half of your dry ingredients. Fold in using a wooden spoon or spatula, it will seem a bit too thick here but don’t be alarmed</p>
+            <p>Now add your sour cream and fold again until well combined. Then the last half of your dry ingredients go in - fold until combined. Again, it will seem too thick, but it’s perfect</p>
+            <p>Lastly, add your strong espresso and chopped chocolate. Fold one last time until everything is nicely combined and dollop batter into your prepared cake tin. Smooth out the top and place in centre position in the oven for 55-65 minutes, or until a cake tester or knife comes out clean when poked into the middle</p>
+            <p>When ready, remove the cake from the oven and leave for 5 minutes in the tin before removing and leaving to cool completely on a wire rack</p>
+            <p>Once the cake is completely cooled, prepare your buttercream</p>
+            <p>Add your softened butter to a stand mixer with a paddle attachment. Beat until smooth and a few shades paler, approximately 5 minutes</p>
+            <p>Add in half of your icing sugar and beat slowly until combined. Increase the speed and beat for about 3 minutes, then add the remaining icing sugar and repeat</p>
+            <p>Pour in coffee and cream and beat slowly until combined. Increase the speed and beat for a further 3-5 minutes, until nice and smooth and a pale coffee colour</p>
+            <p>Depending on the room temperature when you make this, you may find you need to add a little more cream to get the desired consistency, just be mindful not to make it too wet</p>
+            <p>Spread your coffee buttercream all over the top of your cake and decorate however you like, some extra roasted hazelnuts, whole or chopped, scattered over the top is a delicious addition</p>
+            <p>Keep up to date with Clementine:</p>
+            <p>@somethingsiliketocook</p>
+            <p>www.somethingsiliketocook.com.au</p>
+        </div>
+    </div>
+
+</div>
+<div class="bg-footer">
+    <footer class="down-footer">
+        <div class="footer-item">
+            <h3>Shop</h3>
+            <a href="../coffee.html">Coffee</a>
+            <a href="#">Subscriptions</a>
+            <a href="../equipment.html">Equipment</a>
+            <a href="../office.html">Coffee For The Office</a>
+            <a href="../Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+        </div>
+        <div class="footer-item">
+            <h3>About As</h3>
+            <a href="../team-nz.html">Our Team</a>
+            <a href="../history.html">Our History</a>
+            <a href="../careers.html">Careers</a>
+            <a href="../news.html">Journal</a>
+            <a href="../delivery.html">Shipping & Delivery</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contacts</h3>
+            <a href="../contacts.html">Contact Us</a>
+            <a href="../help.html">Help</a>
+            <a href="../policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-item">
+            <span>© 2021 COFFEE SUPREME LIMITED</span>
+            <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+            <p>0800 937 627</p>
+            <p>shopnz@coffeesupreme.com</p>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <a href="http://wd-asha.ru">wd-asha.ru</a>
+    </div>
+</div>
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/fontawesome.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/picks.js"></script>
+
+</body>
+</html>

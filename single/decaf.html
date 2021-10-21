@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="../fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/single.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <label for="search"></label>
+    <input type="search" placeholder="Start typing here..." id="search">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="../cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="../images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="../wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="../login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="../locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="../news.html">Journal</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="../careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="../coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="../equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="../merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="../pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="../equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="../manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="../machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="../grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="../brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="../filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="../keepcup.html"><span>KeepCups</span></a>
+                <a href="../tableware.html"><span>Tableware</span></a>
+                <a href="../stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="../coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="../single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="../single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="../single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="../single/seven.html">No.7&nbsp;Blend</a>
+                <a href="../single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="../single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="../single/raung.html">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="../single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="../single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="../single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="../single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="../single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="../single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="../single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="../index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <a href="../coffee.html">All coffee</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Decaf Blend</span>
+        </h6>
+    </div>
+
+    <div class="single">
+        <div class="imageProduct">
+            <img src="../images/Espresso/decaf.png" alt="">
+            <div class="heart">
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+        <div class="infoProduct">
+            <h3>Coffee Supreme</h3>
+            <h2>BRAZIL, SWISS WATER DECAF</h2>
+            <p>Cocoa & Caramel | Smooth & Creamy</p>
+            <h4>Select Grind:</h4>
+            <div class="grind">
+                <div class="grind-item">Beans</div>
+                <div class="grind-item select-grind">Espresso</div>
+                <div class="grind-item">Stovetop</div>
+                <div class="grind-item">Plunger</div>
+            </div>
+            <h4>Select Weight:</h4>
+            <div class="weight">
+                <div class="weight-item">150g</div>
+                <div class="weight-item select-weight">250g</div>
+                <div class="weight-item">500g</div>
+                <div class="weight-item">1kg</div>
+            </div>
+            <h4>Quantity:</h4>
+            <div class="quantity">
+                <div class="quantity-item" id="quantity">1</div>
+                <div class="quantity-item"></div>
+                <div class="quantity-item quantity-has-select">+</div>
+                <div class="quantity-item quantity-has-select">-</div>
+            </div>
+            <div class="btn-box">
+                <a href="#" class="product_btn">$12.50 — add to cart
+                    <div class="product_btn_back"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="aboutProduct">
+            <h4>Tasting notes</h4>
+            <p>Aroma: Malt, Toast, Hazelnut, Caramel<br>Finish: Clean</p>
+            <h4>About this coffee</h4>
+            <p>Coming from the largest coffee-producing nation in the world, this Brazilian decaf uses the Swiss Water decaffeination method which is a 100% chemical-free process. Using pure water, the caffeine in coffee beans is gently removed until they are 99.9% caffeine-free, without compromising the coffee’s unique body, flavour and aroma characteristics</p>
+            <h4>SHIPPING & DELIVERY</h4>
+            <p>We are currently offering free shipping on all orders nationwide. Standard delivery times: 2-3 working days outside of Auckland, 3-5 working days for those in Auckland. Rural delivery times: 3-5 business days. No Saturday delivery</p>
+        </div>
+    </div>
+
+</div>
+    <div class="bg-footer">
+        <footer class="down-footer">
+            <div class="footer-item">
+                <h3>Shop</h3>
+                <a href="../coffee.html">Coffee</a>
+                <a href="#">Subscriptions</a>
+                <a href="../equipment.html">Equipment</a>
+                <a href="../office.html">Coffee For The Office</a>
+                <a href="../Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+            </div>
+            <div class="footer-item">
+                <h3>About As</h3>
+                <a href="../team-nz.html">Our Team</a>
+                <a href="../history.html">Our History</a>
+                <a href="../careers.html">Careers</a>
+                <a href="../news.html">Journal</a>
+                <a href="../delivery.html">Shipping & Delivery</a>
+            </div>
+            <div class="footer-item">
+                <h3>Contacts</h3>
+                <a href="../contacts.html">Contact Us</a>
+                <a href="../help.html">Help</a>
+                <a href="../policy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-item">
+                <span>© 2021 COFFEE SUPREME LIMITED</span>
+                <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+                <p>0800 937 627</p>
+                <p>shopnz@coffeesupreme.com</p>
+            </div>
+        </footer>
+        <div class="copyRight">
+            <a href="http://wd-asha.ru">wd-asha.ru</a>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/fontawesome.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/picks.js"></script>
+    <script src="../js/single.js"></script>
+</body>
+</html>

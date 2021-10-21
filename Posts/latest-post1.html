@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="../fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <label for="search"></label>
+    <input type="search" placeholder="Start typing here..." id="search">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="../images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="../cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="../images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="../wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="../login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="../locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="../news.html">News</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="../careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="../contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="../coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="../equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="../merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="../pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="../equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="../manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="../machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="../grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="../brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="../filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="../keepcup.html"><span>KeepCups</span></a>
+                <a href="../tableware.html"><span>Tableware</span></a>
+                <a href="../stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="../coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="../single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="../single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="../single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="../single/seven.html">No.7&nbsp;Blend</a>
+                <a href="../single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="../single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="#">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="../single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="../single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="../single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="../single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="../single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="../single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="../single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="../single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="../single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="../index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <a href="../news.html">Journal</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Post</span>
+
+        </h6>
+    </div>
+
+    <h2>Post</h2>
+
+    <div class="post">
+        <div class="post-title">
+            <h4>15 MINUTES WITH CLEMENTINE OF SOME THINGS I LIKE TO COOK</h4>
+            <div class="post-text_header">
+                <div class="post-text_header_left">september 23, 2021</div>
+                <div class="post-text_header_right">interviews</div>
+            </div>
+            <div class="post-img">
+                <img src="../images/Posts/jessie.jpg" alt="">
+            </div>
+        </div>
+        <div class="post-text1">
+            <p>Meet Clementine Day, a Melbourne-based, self-taught cook. She runs Some Things I Like To Cook, an evolving project that celebrates the joy of food, drawing a meaningful connection between food, people and play</p>
+            <p>We're big fans of Clementine's relaxed and unfussy approach, which empowers even the most inexperienced of cooks to create memorable experiences based around the simple act of eating and entertaining. She is passionate about encouraging others to have fun and trust their intuition in the kitchen, and her candid refreshing approach to recipe writing feels like having a supportive best friend alongside as your cooking companion</p>
+            <p>We recently reached out to hear all about Clementine's cooking journey, and how it came to be. While we were at it, we even managed to snag her Coffee, Chocolate & Hazelnut Cake recipe that uses yours truly</p>
+            <p><i>Q: Hey Clem, tell us about yourself and Some Things I Like To Cook?</i></p>
+            <p>Hi! Well, I’m a self-taught cook living on Wurundjeri land in Naarm (Melbourne). I work in design education during the 9-5 and share recipes via my project Some Things I Like to Cook in all of my other waking hours. Some Things I Like to Cook is an evolving food project that has many iterations. Most actively — sharing recipes and food tidbits via Instagram, but also in the form of a monthly newsletter, a self-published cookbook and some future dining projects are in the works, too</p>
+            <p><i>Q: What led you to start Some Things I Like To Cook and your cookbook Coming Together?</i></p>
+            <p>I’ve always been very drawn to cooking and food, in general, but as someone who doesn’t enjoy cooking under pressure, I never really knew where I could fit into the food world. Working in a commercial kitchen or in catering wasn’t going to work for me and I think I just kind of accepted that I didn’t have a place in it. Last year, when the world turned upside down and I found myself working from home, I started sharing lots of what I was cooking on Instagram. After realising I should probably give my friends and family the choice to ‘opt-in’, I created a separate page called Some Things I Like to Cook and it really just took off from there</p>
+            <p>After months and months in a long lockdown, the thing I was missing the most was being around a dinner table with my friends and sharing food, wine and laughs. I decided to create a little self-published cookbook called Coming Together that was all about celebrating being back together, once we emerged from lockdown late last year. The book follows six long lunches I had at friends houses, the recipes of the food I cooked (including a contributed recipe from each of my friends), playlists and wine pairings and was honestly such a pleasure to create, albeit a huge learning curve</p>
+            <p><i>Q: What’s something we’ll always find in your fridge?</i></p>
+            <p>So many things! My fridge is always so packed but you’ll always, always find pickles! A great snack and an essential thing to always have on hand</p>
+            <p><i>Q: What are your top 3 favourite cookbooks?</i></p>
+            <p>Samin Nosrat’s Salt Fat Acid Heat is essential reading for anyone wanting to cook from a book. I really love all of the River Cafe cookbooks, too - such great simple fare. And lastly, Niki Segnit’s The Flavour Thesaurus is a really good one for when you lose inspiration</p>
+            <p><i>Q: Who and what do you look to for inspiration?</i></p>
+            <p>I get most of my inspiration at the farmers market. I love trying varieties of things that I’ve never seen before and produce that is in season or particularly beautiful, that’s generally where I start. I often buy things without having any dishes in mind, and then I just feel it out in the kitchen</p>
+        </div>
+        <div class="post-text2">
+            <p>For me cooking is really intuitive and therapeutic, so I kind of just make it up as I go - some good tunes in the background and a glass of wine in hand are mandatory. I am often really inspired by growers, I think their approach to food and the way they handle produce is so beautiful. I grow what I can in my (very small) garden, but I have nothing on some of the wonderful people that I am privileged enough to get produce from</p>
+            <p><i>Q: What’s your coffee setup at home</i></p>
+            <p>I’m all about filter coffee. I have always had a really low tolerance for caffeine and when I discovered filter coffee it completely changed my relationship with it. I just find the flavours so much more delicate, and fruity floral notes really shine in filter coffee, as well as it being a little more mellow for my sensitive tum</p>
+            <p><i>Q: Got a favourite Supreme coffee?</i></p>
+            <p>I really like to dip my toe into different varieties each time I buy. Key descriptors I look for are: floral, stone fruits, cherry. At the moment we have the Ethiopia Lalesa filter roast which is *chefs kiss</p>
+            <p><i>Q: Smooth or crunchy?</i></p>
+            <p>If we’re talking peanut butter I’m crunchy ALLLLL the way</p>
+            <p><i>Q: If you could cook a long lunch for anyone, who would it be and why?</i></p>
+            <p>At the moment, as silly as this may sound, my Mum. I haven’t seen her much at all over the past 18 months and I miss her so much. All I want to do, when we can again, is cook a long lunch for us and catch up on everything we’ve missed</p>
+            <p><i>Q: We bet you’ve got a good list of local spots up your sleeve. Where are your favourite places in Melbourne to eat/drink/takeaway?</i></p>
+            <p>Okay! This is serious business</p>
+            <ul>
+                <li>Hope St Radio</li>
+                <li>Carlton Wine Room</li>
+                <li>Neighbourhood Wine</li>
+                <li>Bar Liberty</li>
+                <li>Waxflower Bar</li>
+                <li>Florian Eatery</li>
+                <li>Monforte Viennoiserie</li>
+                <li>Oven St Bakery</li>
+                <li>La Pinta</li>
+                <li>Juanitos for a sandwich</li>
+                <li>& so much more</li>
+            </ul>
+            <p><i>Q: What’s on the horizon for you and Some Things I Like To Cook?</i></p>
+            <p>At the moment, I have the last run of my book Coming Together available for preorder — so I’ll be dispatching all of those soon. But I’m also working on a few ticketed dinner projects for over the summer. Lots of fun things in the works</p>
+            <p>Keep up to date with Clementine:</p>
+            <p>@somethingsiliketocook</p>
+            <p>www.somethingsiliketocook.com.au</p>
+        </div>
+    </div>
+
+</div>
+<div class="bg-footer">
+    <footer class="down-footer">
+        <div class="footer-item">
+            <h3>Shop</h3>
+            <a href="../coffee.html">Coffee</a>
+            <a href="#">Subscriptions</a>
+            <a href="../equipment.html">Equipment</a>
+            <a href="../office.html">Coffee For The Office</a>
+            <a href="../Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+        </div>
+        <div class="footer-item">
+            <h3>About As</h3>
+            <a href="../team-nz.html">Our Team</a>
+            <a href="../history.html">Our History</a>
+            <a href="../careers.html">Careers</a>
+            <a href="../news.html">Journal</a>
+            <a href="../delivery.html">Shipping & Delivery</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contacts</h3>
+            <a href="../contacts.html">Contact Us</a>
+            <a href="../help.html">Help</a>
+            <a href="../policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-item">
+            <span>© 2021 COFFEE SUPREME LIMITED</span>
+            <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+            <p>0800 937 627</p>
+            <p>shopnz@coffeesupreme.com</p>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <a href="http://wd-asha.ru">wd-asha.ru</a>
+    </div>
+</div>
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/fontawesome.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/picks.js"></script>
+
+</body>
+</html>

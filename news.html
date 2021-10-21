@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <label for="search"></label>
+    <input type="search" placeholder="Start typing here..." id="search">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions" id="subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="news.html">Journal</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="keepcup.html"><span>KeepCups</span></a>
+                <a href="tableware.html"><span>Tableware</span></a>
+                <a href="stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="single/seven.html">No.7&nbsp;Blend</a>
+                <a href="single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="single/raung.html">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Journal</span>
+        </h6>
+    </div>
+
+    <h2>Journal</h2>
+
+    <div class="news">
+        <div class="categories">
+            <h5>Categories</h5>
+            <a href="news-coffee.html" class="category">
+                Coffee
+            </a>
+            <a href="news-community.html" class="category">
+                Community
+            </a>
+            <a href="news-events.html" class="category">
+                Events
+            </a>
+            <a href="news-interviews.html" class="category">
+                Interviews
+            </a>
+            <a href="news-products.html" class="category">
+                Products
+            </a>
+            <a href="news-recipes.html" class="category">
+                Recipes
+            </a>
+            <a href="news-thoughts.html" class="category">
+                Thoughts
+            </a>
+        </div>
+        <div class="posts">
+            <div class="latest">
+                <h3>Latest Journal Posts</h3>
+                <p>Here’s a taste of the freshest posts from our Journal</p>
+            </div>
+            <div class="post">
+                <a href="Posts/latest-post1.html">
+                    <div class="post-img">
+                        <img src="images/Posts/jessie.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h4 class="post-title">15 Minutes with Clementine of Some Things I Like To Cook</h4>
+                        <div class="post-text_header">
+                            <div class="post-text_header_left">september 23, 2021</div>
+                            <div class="post-text_header_right">interviews</div>
+                        </div>
+                        <p class="post-text">We recently reached out to Clementine, a self-taught cook from Melbourne to hear about her cooking journey, and how...
+                        </p>
+                        <span>Read more</span>
+                    </div>
+                </a>
+            </div>
+            <div class="post">
+                <a href="Posts/latest-post2.html">
+                    <div class="post-img">
+                        <img src="images/Posts/cake.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h4 class="post-title">Coffee, Chocolate & Hazelnut Cake by Clementine Day</h4>
+                        <div class="post-text_header">
+                            <div class="post-text_header_left">september 23, 2021</div>
+                            <div class="post-text_header_right">recipes</div>
+                        </div>
+                        <p class="post-text">Coffee, Chocolate & Hazelnut Cake by Clementine Day of Some Things I Like To Cook...</p>
+                        <span>Read more</span>
+                    </div>
+                </a>
+            </div>
+            <div class="post">
+                <a href="Posts/latest-post3.html">
+                    <div class="post-img">
+                        <img src="images/Posts/mhf.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <h4 class="post-title">Our Partnership with the Mental Health Foundation</h4>
+                        <div class="post-text_header">
+                            <div class="post-text_header_left">september 23, 2021</div>
+                            <div class="post-text_header_right">community</div>
+                        </div>
+                        <p class="post-text">We often say great things happen over a cup of coffee. Sometimes it’s about connecting with a friend or colleague and...</p>
+                        <span>Read more</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="bg-footer">
+    <footer class="down-footer">
+        <div class="footer-item">
+            <h3>Shop</h3>
+            <a href="coffee.html">Coffee</a>
+            <a href="#">Subscriptions</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="office.html">Coffee For The Office</a>
+            <a href="Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+        </div>
+        <div class="footer-item">
+            <h3>About As</h3>
+            <a href="team-nz.html">Our Team</a>
+            <a href="history.html">Our History</a>
+            <a href="careers.html">Careers</a>
+            <a href="news.html">Journal</a>
+            <a href="delivery.html">Shipping & Delivery</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contacts</h3>
+            <a href="contacts.html">Contact Us</a>
+            <a href="help.html">Help</a>
+            <a href="policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-item">
+            <span>© 2021 COFFEE SUPREME LIMITED</span>
+            <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+            <p>0800 937 627</p>
+            <p>shopnz@coffeesupreme.com</p>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <a href="http://wd-asha.ru">wd-asha.ru</a>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/picks.js"></script>
+<!--<script src="js/locations.js"></script>-->
+</body>
+</html>

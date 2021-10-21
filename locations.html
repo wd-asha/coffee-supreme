@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Supreme</title>
+    <link href="fontawesome/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/locations.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<div id="overlay"></div>
+<div id="overlaySearch">
+    <div id="searchClose">
+        <i class="fas fa-times"></i>
+    </div>
+    <label for="search"></label>
+    <input type="search" placeholder="Start typing here..." id="search">
+</div>
+
+<div class="header-bg">
+
+    <div id="cartBox">
+        <div class="cart-header">
+            <div class="cart-title">My Cart</div>
+            <i class="fas fa-times cart-close" id="cartClose"></i>
+        </div>
+        <div class="cart-body">
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/brazil.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Brazil Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-product">
+                <div class="product-img">
+                    <img src="images/Espresso/boxer.png" alt="">
+                </div>
+                <div class="product-desc">
+                    <div class="product-name">Boxer Blend</div>
+                    <div class="product-options">Whole Beans / 250g</div>
+                    <div class="product-price">$12.50</div>
+                </div>
+                <div class="product-delete">
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="total-box">
+            <div class="grand-total">Grand Total</div>
+            <div class="sum-total">$25.00</div>
+        </div>
+        <div class="btn-box">
+            <a href="cart.html" class="btn-cart">To Cart</a>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="header_logo">
+            <img src="images/Coffee-Supreme-Logo.jpg" alt="">
+        </div>
+        <div class="header_nav">
+            <div class="nav_menuItem-shop" id="shop">
+                <a href="#">Shop</a>
+            </div>
+            <div class="nav_menuItem-subscriptions">
+                <a href="#">Subscriptions</a>
+            </div>
+            <div class="nav_menuItem-wholesale">
+                <a href="wholesale.html">Wholesale</a>
+            </div>
+            <div class="nav_menuItem-search" id="searchMenu">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-user">
+                <a href="login.html">
+                    <i class="fa fa-user"></i>
+                </a>
+            </div>
+            <div class="nav_menuItem-basket" id="basket">
+                <a href="#">
+                    <i class="fa fa-shopping-bag"></i>
+                    <div class="bag-count">2</div>
+                </a>
+            </div>
+            <div class="nav_menuItem-locations">
+                <a href="locations.html">Locations</a>
+            </div>
+            <div class="nav_menuItem-news">
+                <a href="news.html">Journal</a>
+            </div>
+            <div class="nav_menuItem-careers">
+                <a href="careers.html">Careers</a>
+            </div>
+            <div class="nav_menuItem-contacts">
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="menu-panel" id="menuPanel">
+            <div class="menu-panel_item" id="menuPanelCoffee">
+                <a href="coffee.html">
+                    <span>Coffee</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelSubscript">
+                <a href="#">
+                    <span>Subscriptions</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelEquipment">
+                <a href="equipment.html">
+                    <span>Equipment</span>
+                    <i class="fa fa-arrow-right myfa"></i>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelMerchandise">
+                <a href="merchandise.html">
+                    <span>Merchandise</span>
+                </a>
+            </div>
+            <div class="menu-panel_item" id="menuPanelPantry">
+                <a href="pantry.html">
+                    <span>Pantry</span>
+                </a>
+            </div>
+            <i class="fa fa-arrow-left back"></i>
+        </div>
+
+        <div class="equipment-panel" id="equipmentPanel">
+            <div class="equipment-panel_item">
+                <a href="equipment.html"><span>View&nbsp;all&nbsp;Equipment</span></a>
+                <p>Brew&nbsp;Gear</p>
+                <a href="manual.html"><span>Manual&nbsp;Brewing</span></a>
+                <a href="machines.html"><span>Filter&nbsp;Machines</span></a>
+                <a href="grinders.html"><span>Grinders</span></a>
+                <p><span>Accessories</span></p>
+                <a href="brewing.html"><span>Manual&nbsp;Brewing&nbsp;Accessories</span></a>
+                <a href="filter.html"><span>Filter&nbsp;Papers</span></a>
+                <a href="keepcup.html"><span>KeepCups</span></a>
+                <a href="tableware.html"><span>Tableware</span></a>
+                <a href="stanley.html"><span>Stanley</span></a>
+            </div>
+        </div>
+
+        <div class="coffee-panel" id="coffeePanel">
+            <div class="coffee-panel_item">
+                <a href="coffee.html"><span>View&nbsp;all&nbsp;coffee</span></a>
+                <p>Espresso&nbsp;Blends</p>
+                <a href="single/supreme.html">Supreme&nbsp;Blend</a>
+                <a href="single/brazil.html">Brazil&nbsp;Blend</a>
+                <a href="single/boxer.html">Boxer&nbsp;Blend</a>
+                <a href="single/seven.html">No.7&nbsp;Blend</a>
+                <a href="single/ampm.html">AM:PM&nbsp;Blend</a>
+                <p>Single&nbsp;Origin&nbsp;Espresso</p>
+                <a href="single/tolima.html">Colombia&nbsp;Tolima&nbsp;Organic</a>
+                <a href="single/raung.html">Indonesia&nbsp;Mt&nbsp;Raung</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/decaf.html">Brazil&nbsp;Swiss&nbsp;Water&nbsp;Decaf</a>
+                <p>Single&nbsp;Origin&nbsp;Filter</p>
+                <a href="single/huella.html">Nicaragua&nbsp;La&nbsp;Huella</a>
+                <a href="single/libertad.html">Guatemala&nbsp;La&nbsp;Libertad</a>
+                <a href="single/kiandu.html">Kenya&nbsp;Kiandu</a>
+                <a href="single/sayisa.html">Ethiopia&nbsp;Buku&nbsp;Sayisa</a>
+                <a href="single/minznge.html">Papua&nbsp;New&nbsp;Guinea&nbsp;Minznge</a>
+                <a href="single/guji.html">Ethiopia&nbsp;Guji</a>
+                <a href="single/bob.html">Brazil&nbsp;Bob-o-link</a>
+                <a href="single/decaf.html">Colombia&nbsp;Huila&nbsp;Decaf</a>
+                <p>Gift&nbsp;Bags</p>
+                <a href="#">Gift&nbsp;Bags&nbsp;Espresso</a>
+                <a href="single/thank.html">Gift&nbsp;Bags&nbsp;Filter</a>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<div class="wrapper">
+
+    <div class="breadcrumbs">
+        <h6>
+            <a href="index.html">Home</a>
+            <i class="fas fa-caret-right"></i>
+            <span>Locations</span>
+        </h6>
+    </div>
+
+    <h2>Our Locations</h2>
+
+    <div class="locations">
+        <div class="locations-menu">
+            <div class="locations-list">
+                <div class="location active" id="location1">
+                    <h3>CHAIRS</h3>
+                    <p>376 Great North Road</p>
+                    <p>Grey Lynn</p>
+                    <p>Auckland</p>
+                    <p>New Zealand</p>
+                </div>
+                <div class="location" id="location2">
+                    <h3>Midland Park</h3>
+                    <p>31 Waring Taylor Street</p>
+                    <p>Wellington CBD</p>
+                    <p>Wellington</p>
+                    <p>New Zealand</p>
+                </div>
+                <div class="location" id="location3">
+                    <h3>Brisbane Roastery</h3>
+                    <p>35 Hopper Street</p>
+                    <p>Mt Cook</p>
+                    <p>Wellington</p>
+                    <p>New Zealand</p>
+                </div>
+                <div class="location" id="location4">
+                    <h3>Abbotsford Cafe</h3>
+                    <p>28-36 Grosvenor Street</p>
+                    <p>Abbotsford</p>
+                    <p>Melbourne</p>
+                    <p>Australia</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="locations-texts">
+            <div class="locations-text" id="locationsText1">
+                <h4>About CHAIRS</h4>
+                <p>CHAIRS is our shared workspace located within our Auckland Coffee Supreme HQ. At Coffee Supreme we love to host people. So much so, we've dedicated a whole wing of the building to doing just that. That's why we started CHAIRS</p>
+                <p>We've built a great place to get some work done and a lovely community of like minded people. We offer both permanent desk options, hot desk day rates and meeting rooms for hire. There's informal zones for informalities, a kitchen for heating up leftovers, and of course plenty of free coffee</p>
+                <p>If you'd like to come by or try it out for a day, let us know and we can make it happen.</p>
+            </div>
+
+            <div class="locations-text" id="locationsText2">
+                <h4>ABOUT MIDLAND PARK</h4>
+                <p>Situated in Wellington Central, on the shoulder of the ever-popular Midland Park, our flagship retail store, Coffee Supreme Midland Park, is the complete experience for the at-home or office coffee-lover. With our complete range of freshly roasted coffees available, this is the spot for cream-of-the-crop coffee, espresso machines, and brewing devices</p>
+                <p>Not quite a week after Coffee Supreme New Zealand celebrated its 22nd birthday in 2015, we vacated our legacy store on Woodward Street for a new store 100m away here at Midland Park</p>
+                <p>The move marked the end of an era, as our 7 Woodward Street site, with its diminutive 14sqm size, served as our first roastery from 1993, before being transformed into the home and heart of our retail operation in 1996</p>
+            </div>
+
+            <div class="locations-text" id="locationsText3">
+                <h4>About Brisbane Roastery</h4>
+                <p> All this is set in an environment that is rather domestic, and intentionally so. This home-like feel puts people at ease and relaxes an experience that could feel uptight if held with too much reverence</p>
+                <p>Right from the start, the filter offering was a central part of the space, and, though it took a while to build up the customer base, the adoption of filter coffee as a premium drink is the most pleasing aspect of how Customs has fared to date. The influence Customs has had on us as a roasting company, and on the specialty scene in general, has been quiet but reasonably profound</p>
+                <p>Six years after opening the doors, there a dozen or so other spaces in Wellington following Customs’ lead and we’re installing an ever-increasing amount of commercial filter coffee brewers in the cafés of our wholesale customers</p>
+            </div>
+
+            <div class="locations-text" id="locationsText4">
+                <h4>About Abbotsford Cafe</h4>
+                <p>If our Midland Park store is the heart of coffee for home, Customs is the centre for what’s current in the world of coffee preparation, located just off the cultural melting pot that is Cuba Street, Wellington. The name Customs comes from the idea that the best experiences with coffee often begin with rituals inherited from the customs of global coffee drinkers</p>
+                <p> The name is also a hat-tip to the journey coffee takes to arrive in New Zealand, with every bean having to be imported from distant, far-off lands. Customs partners a revolving menu of single origins for home, offered by the 100 gram, with both filter and espresso drink options</p>
+                <p>The coffee experience wouldn’t be complete without a morsel to accompany it, and Customs offers an ever-changing menu of fresh toast and pastry options, made either on site or by local suppliers</p>
+            </div>
+        </div>
+        <div class="locations-img">
+            <img src="images/locations/Chairs_.jpg" id="locationsImg1" alt="">
+            <img src="images/locations/Midland-Park_.jpg" id="locationsImg2" alt="">
+            <img src="images/locations/Abbotsford_.jpg" id="locationsImg3" alt="">
+            <img src="images/locations/Customs_.jpg" id="locationsImg4" alt="">
+        </div>
+    </div>
+
+</div>
+<div class="bg-footer">
+    <footer class="down-footer">
+        <div class="footer-item">
+            <h3>Shop</h3>
+            <a href="coffee.html">Coffee</a>
+            <a href="#">Subscriptions</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="office.html">Coffee For The Office</a>
+            <a href="Coffee_Supreme_Brew_Guide.pdf">Brew Guide</a>
+        </div>
+        <div class="footer-item">
+            <h3>About As</h3>
+            <a href="team-nz.html">Our Team</a>
+            <a href="history.html">Our History</a>
+            <a href="careers.html">Careers</a>
+            <a href="news.html">Journal</a>
+            <a href="delivery.html">Shipping & Delivery</a>
+        </div>
+        <div class="footer-item">
+            <h3>Contacts</h3>
+            <a href="contacts.html">Contact Us</a>
+            <a href="help.html">Help</a>
+            <a href="policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-item">
+            <span>© 2021 COFFEE SUPREME LIMITED</span>
+            <p>We are an independent coffee roaster supplying cafes, homes and offices all across New Zealand and Australia</p>
+            <p>0800 937 627</p>
+            <p>shopnz@coffeesupreme.com</p>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <a href="http://wd-asha.ru">wd-asha.ru</a>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/menu.js"></script>
+<!--<script src="js/picks.js"></script>-->
+<script src="js/locations.js"></script>
+</body>
+</html>
